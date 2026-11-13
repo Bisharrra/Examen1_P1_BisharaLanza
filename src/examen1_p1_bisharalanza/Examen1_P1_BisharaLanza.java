@@ -76,15 +76,14 @@ return op;
         int acumx=0;  
         int multx=1;
         Fx=x-1;
-        if (acumx<1){
-        acumx=x*Fx;
-        }
-        else {
-                c=acumx*Fx;
-                }
         
+        acumx=x*Fx;
+        x=Fx;
+        
+        
+        System.out.println(acumx);
         }
-        System.out.println(c);
+        
             
         
        
