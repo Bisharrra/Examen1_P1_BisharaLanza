@@ -73,22 +73,22 @@ return op;
         int Fx=0;
         int c=0;
         int acumx=0;  
-        while (x != 0){
-        
+        while (x != 0){ 
         int multx=1;
         Fx=x-1;
         
-        acumx=x*Fx;
-}
-   c=acumx;
         
+
+        acumx=x*Fx;
         
        
         
         
         
         System.out.println(acumx);
+        
         }
+        
         int Fr=0;
         int p=0;
         int acumr=0;  
@@ -126,6 +126,8 @@ return op;
     public static void EntendiendoALasMujeres(){
          System.out.println("ingrese el mensaje");
          String mensaje=leer.next();
+         
+         
        
              
          
@@ -137,7 +139,14 @@ return op;
         System.out.println("ingrese un numero octal");
         int octal=leer.nextInt();
         
+        if (octal<=0 || octal>=7){
+            
+        }
+            
+            
+                
         
+                
     }
     public static void Salir(){
         System.out.println("gracias por usar el programa");
