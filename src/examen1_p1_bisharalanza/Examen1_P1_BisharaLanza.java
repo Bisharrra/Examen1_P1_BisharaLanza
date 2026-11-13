@@ -72,16 +72,19 @@ return op;
         
         int Fx=0;
         int c=0;
-        while (x !=0){
+        while (x != 0){
         int acumx=0;  
         int multx=1;
         Fx=x-1;
         
         acumx=x*Fx;
-        x=Fx;
+        multx=acumx;
+        c=acumx;
+        acumx=0;
         
         
-        System.out.println(acumx);
+        
+        System.out.println(multx);
         }
         
             
@@ -108,7 +111,11 @@ return op;
                 
     }
     public static void EntendiendoALasMujeres(){
-        
+         System.out.println("ingrese el mensaje");
+         String mensaje=leer.next();
+         
+         if ()
+         
     }
     public static void EstudiandoParaExamen(){
         
