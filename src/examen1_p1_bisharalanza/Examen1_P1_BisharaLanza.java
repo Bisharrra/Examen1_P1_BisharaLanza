@@ -69,49 +69,30 @@ return op;
         System.out.println("ingrese r");
         r=leer.nextInt();
         }
-        
-        int Fx=0;
-        int c=0;
-        int acumx=0;  
-        while (x != 0){ 
-        int multx=1;
-        Fx=x-1;
-        
-        
+        double factorx=1, factorr=1, factoxr=1;
+        for(int k=1; k<=x; k++) {
+            factorx *= k;
+        }
+        for (int k=1; k<= r; k++){
+            factorr *= k;
+            
+        double factox=1;
+        double constante = factorx / factorr * factoxr;
+        double t = 0;
+        double fac = 1; int sas;
+        for (int a= 1; a<=n; a++){
 
-        acumx=x*Fx;
-        
-       
-        
-        
-        
-        System.out.println(acumx);
-        
+
+            factorx += (i+1);
+            sas = i;
+            for (int j = 1; j <=1; j++){
+                
+            }
+                    
         }
         
-        int Fr=0;
-        int p=0;
-        int acumr=0;  
-        while (r != 0){
-        
-        int multr=1;
-        Fr=r-1;
-        
-        acumr=r*Fr;
-        
-            
-        
-       
-        
-          
-        System.out.println(acumr);  
-            
             
         }
-        
-                
-                
-        
         
         }
         
@@ -140,6 +121,7 @@ return op;
         int octal=leer.nextInt();
         
         if (octal<=0 || octal>=7){
+            
             
         }
             
